@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main() {
+    float numbers[5];
+    int j, pct0, nctr=0;
+    printf("\ninput the first number: ");
+    scanf("%f" ,&numbers[0]);
+    printf("\ninput the second number: ");
+    scanf("%f" , &numbers[1]);
+    printf("\ninput the third number: ");
+    scanf("%f" , &numbers[2]);
+    printf("\ninput the fourth number: ");
+    scanf("%f" ,&numbers[3]);
+    printf("\ninput the fifth number: ");
+    scanf("%f" , &numbers[4]);
+        for(j=0; j<5; j++) {
+            if (numbers[j] > 0)
+            {
+                
+                pctr++;
+            }
+            else if (numbers[j] < 0)
+            {
+                nctr++;
+            }
+}
+printf("\nnumber of positive numbers: %d" , pctr);
+printf("\nnumber of negative numbers: %d" , nctr);
+printf("\n");
+return 0;
+}
