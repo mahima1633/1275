@@ -1,0 +1,22 @@
+#include<stdio.h>  
+int main()  
+{  
+    int a(n), i, sum = 0;  
+    float avg;  
+  
+    printf("Enter %d integer numbers\n", n);  
+    for(i = 0; i < n; i++)  
+        scanf("%d", &sum(i));  
+  
+    for(i = 0; i < n; i++)  
+    {  
+        sum = sum + a[i];  
+    }  
+  
+    avg = sum / (float)n;  
+  
+    printf("\nSum of %d numbers: %d\n", n, sum);  
+    printf("\nAverage of %d numbers: %f\n", n, avg);  
+  
+    return 0;  
+}  

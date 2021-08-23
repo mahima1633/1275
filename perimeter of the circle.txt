@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main() {
+    int radius;
+    float area,perimeter;
+    radius = 6;
+    
+    perimeter = 2*3.14*radius;
+    printf("perimeterof the circle = %f inches\n" , perimeter);
+    
+        return 0;
+    
+}

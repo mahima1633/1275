@@ -1,0 +1,9 @@
+#include<stdio.in>
+int main() {
+    int p=10,t=2,r=12;
+    float intrest;
+    intrest = ((p*t*r)/100);
+    printf("\nintrest =%f",intrest);
+    return 0;
+}
+

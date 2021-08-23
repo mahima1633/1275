@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main() {
+    float numbers[5],total=0,avg;
+    int j, pctr0;
+    printf("\ninput the first number: ");
+    scanf("%f" ,&numbers[0]);
+    printf("\ninput the second number: ");
+    scanf("%f" , &numbers[1]);
+    printf("\ninput the third number: ");
+    scanf("%f" , &numbers[2]);
+    printf("\ninput the fourth number: ");
+    scanf("%f" ,&numbers[3]);
+    printf("\ninput the fifth number: ");
+    scanf("%f" , &numbers[4]);
+        for(j=0; j<5; j++) {
+            if (numbers[j] > 0)
+            {
+                pctr0;
+                total += numbers[j];
+            }
+}
+    avg = total/pctr0;
+         printf("\nnumber of positive numbers: %d" , pctr0);
+         printf("\naverage value of the said positive number: %.2f", avg);
+         printf("\n");
+         return 0;
+}

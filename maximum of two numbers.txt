@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main() {
+    int num1 ,num2 , maximum;
+            printf("enter 2numbers:");
+            scanf("%d%d" ,&num1,&num2);
+            
+    maximum = (num1>num2)? num1:num2;
+    printf("maximum of two numbers is %d" , maximum);
+    
+    return 0;
+}
